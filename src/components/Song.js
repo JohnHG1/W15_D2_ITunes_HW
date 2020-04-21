@@ -5,6 +5,7 @@ const Song = (props) => {
     <div className="song">
      
       <p>Position: {props.position + 1}</p>
+     {/* got to +1 or else will start at 0 */}
      
       <p>{props.song["im:name"].label}</p>
      

@@ -26,7 +26,8 @@ class MusicContainer extends React.Component {
     return (
       <div className="music-container">
         <h1>Top 20 iTunes Hits in the UK</h1>
-        <div className="button" onClick={this.fetchSongs}>Music</div>
+         
+          <div className="button" onClick={this.fetchSongs}>Music</div>
         <SongSelector songs={this.state.songs}></SongSelector>
       </div>
     )
