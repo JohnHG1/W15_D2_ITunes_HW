@@ -10,10 +10,11 @@ const Song = (props) => {
       <p>{props.song["im:name"].label}</p>
           
       <p>{props.song["im:artist"].label}</p>
+
+      <img src={props.song["im:image"][2].label} alt="" />
      
       <audio controls="play" src={props.song.link[1].attributes.href}></audio>
 
-      <img src={props.song["im:image"][2].label} alt="" />
 
     
     </div>
